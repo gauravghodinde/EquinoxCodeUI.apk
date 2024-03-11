@@ -10,9 +10,15 @@ class MyCart extends StatelessWidget {
   MyCart({super.key});
   List<Map<String, dynamic>> shoes = [
     {
-      "image": 'assets/images/1.png',
-      "color": Color(0xffFDBE7F),
-      "shoeName": "Air Max 290 red machine",
+      "image": 'assets/images/2.png',
+      "color": Color(0xffC0A4A2),
+      "shoeName": "Air Max pegasus 37",
+      "shoeType": "Lifestyle",
+    },
+    {
+      "image": 'assets/images/3.png',
+      "color": Color(0xff525252),
+      "shoeName": "Air Max 90 pegasus 37",
       "shoeType": "Running",
     },
   ];

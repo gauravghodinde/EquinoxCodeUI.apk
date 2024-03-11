@@ -9,6 +9,12 @@ class Favourites extends StatelessWidget {
   Favourites({super.key});
   List<Map<String, dynamic>> shoes = [
     {
+      "image": 'assets/images/4.png',
+      "color": Color(0xff5A4C8D),
+      "shoeName": "Air Jordan iV",
+      "shoeType": "Lifestyle",
+    },
+    {
       "image": 'assets/images/1.png',
       "color": Color(0xffFDBE7F),
       "shoeName": "Air Max 290 red machine",

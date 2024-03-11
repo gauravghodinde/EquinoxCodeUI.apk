@@ -23,9 +23,15 @@ class MYProducts extends StatelessWidget {
       "shoeType": "Lifestyle",
     },
     {
-      "image": 'assets/images/2.png',
-      "color": Color(0xffC0A4A2),
-      "shoeName": "Air Max pegasus 37",
+      "image": 'assets/images/3.png',
+      "color": Color(0xff525252),
+      "shoeName": "Air Max 90 pegasus 37",
+      "shoeType": "Running",
+    },
+    {
+      "image": 'assets/images/4.png',
+      "color": Color(0xff5A4C8D),
+      "shoeName": "Air Jordan iV",
       "shoeType": "Lifestyle",
     }
   ];
