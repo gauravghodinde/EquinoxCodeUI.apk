@@ -43,3 +43,40 @@ class ListOfWidgets extends StatelessWidget {
     );
   }
 }
+
+class ListOfBrands extends StatelessWidget {
+  ListOfBrands({super.key});
+  List<String> images = [
+    "assets/images/brand1.png",
+    "assets/images/brand2.png",
+    "assets/images/brand3.png",
+    "assets/images/brand5.png"
+  ];
+  @override
+  Widget build(BuildContext context) {
+    return Expanded(
+      child: ListView.builder(
+          scrollDirection: Axis.horizontal,
+          shrinkWrap: true,
+          padding: EdgeInsets.all(8),
+          itemCount: images.length,
+          itemBuilder: (context, i) => Padding(
+                padding: const EdgeInsets.all(5),
+                child: Container(
+                  width: 60,
+                  height: 42,
+                  padding: EdgeInsets.all(8),
+                  decoration: BoxDecoration(
+                      color: Color(0xffF5F5F5),
+                      borderRadius: BorderRadius.circular(8)),
+                  child: Image.asset(
+                    images[i],
+                    // height: 32,
+                    // width: 32,
+                    fit: BoxFit.contain,
+                  ),
+                ),
+              )),
+    );
+  }
+}

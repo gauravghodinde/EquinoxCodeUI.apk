@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
       bottomNavigationBar: CurvedNavigationBar(
         key: _bottomNavigationKey,
         index: 2,
-        height: 75,
+        height: 60,
         animationDuration: Duration(milliseconds: 400),
         backgroundColor: Colors.transparent,
         color: Colors.yellow,
